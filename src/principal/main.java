@@ -13,7 +13,7 @@ public class main {
         HamburguerBuilder builder = new ConcreteHamburguerBuilder();
         HamburguerDirector director = new HamburguerDirector(builder);
 
-        Hamburguer hamburger = director.construct();
+        Hamburguer hamburguer = director.construct();
         Scanner scanner = new Scanner(System.in);
         boolean sair = false;
 
@@ -25,32 +25,32 @@ public class main {
             switch (opcao) {
                 case 1:
                     System.out.println("Você selecionou o Hambúrguer de Frango");
-                    System.out.println("Pão: " + hamburger.getPao());
-                    System.out.println("Frango: " + hamburger.getFrango());
-                    System.out.println("Ingredientes: " + hamburger.getIngredientes());
-                    System.out.println("Queijo: " + hamburger.isQueijo());
-                    System.out.println("Alface: " + hamburger.isAlface());
-                    System.out.println("Tomate: " + hamburger.isTomate());
+                    System.out.println("Pão: " + hamburguer.getPao());
+                    System.out.println("Frango: " + hamburguer.getFrango());
+                    System.out.println("Ingredientes: " + hamburguer.getIngredientes());
+                    System.out.println("Queijo: " + hamburguer.isQueijo());
+                    System.out.println("Alface: " + hamburguer.isAlface());
+                    System.out.println("Tomate: " + hamburguer.isTomate());
                     break;
                 case 2:
                     System.out.println("Você selecionou o Hambúrguer de Carne");
 
-                    System.out.println("Pão: " + hamburger.getPao());
-                    System.out.println("Carne: " + hamburger.getCarne());
-                    System.out.println("Ingredientes: " + hamburger.getIngredientes());
-                    System.out.println("Queijo: " + hamburger.isQueijo());
-                    System.out.println("Alface: " + hamburger.isAlface());
-                    System.out.println("Tomate: " + hamburger.isTomate());
+                    System.out.println("Pão: " + hamburguer.getPao());
+                    System.out.println("Carne: " + hamburguer.getCarne());
+                    System.out.println("Ingredientes: " + hamburguer.getIngredientes());
+                    System.out.println("Queijo: " + hamburguer.isQueijo());
+                    System.out.println("Alface: " + hamburguer.isAlface());
+                    System.out.println("Tomate: " + hamburguer.isTomate());
                     break;
                 case 3:
                     System.out.println("Você selecionou o Hambúrguer de Frango e catupiry");
-                    System.out.println("Pão: " + hamburger.getPao());
-                    System.out.println("Frango: " + hamburger.getFrango());
-                    System.out.println("Ingredientes: " + hamburger.getIngredientes());
-                    System.out.println("Queijo: " + hamburger.isQueijo());
-                    System.out.println("Alface: " + hamburger.isAlface());
-                    System.out.println("Tomate: " + hamburger.isTomate());
-                    System.out.println("Catupiry: " + hamburger.isCatupiry());
+                    System.out.println("Pão: " + hamburguer.getPao());
+                    System.out.println("Frango: " + hamburguer.getFrango());
+                    System.out.println("Ingredientes: " + hamburguer.getIngredientes());
+                    System.out.println("Queijo: " + hamburguer.isQueijo());
+                    System.out.println("Alface: " + hamburguer.isAlface());
+                    System.out.println("Tomate: " + hamburguer.isTomate());
+                    System.out.println("Catupiry: " + hamburguer.isCatupiry());
                     break;                    
                 case 4:
                     System.out.println("Saindo do sistema...");
